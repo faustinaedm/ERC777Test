@@ -19,7 +19,12 @@ module.exports = {
       network_id: "*",
     },
 
-
+ coverage: {
+        gas: 0x1fffffffffffff,
+        host: '127.0.0.1',
+        port: 8555,
+        network_id: "*",
+      }
     /*kovan: {
       provider: () => new HDWalletProvider(process.env.mnemonic, 'https://kovan.infura.io/v3/256a6d530a254d2c991666cab6fc9722', '0xd48c3F1FD8382DcaF0b650d050349698283cF698'),
       network_id: 42, // eslint-disable-line camelcase
